@@ -12,8 +12,9 @@ MCU = atmega32u4
 BOOTLOADER = caterina
 
 EXTRAKEY_ENABLE 	= yes
-NKRO_ENABLE 		= yes
+NKRO_ENABLE 		= no
 MOUSEKEY_ENABLE 	= no
 SPLIT_KEYBOARD 		= yes
 PS2_MOUSE_ENABLE = yes
 PS2_USE_INT = yes
+DEBOUNCE_TYPE = sym_eager_pk

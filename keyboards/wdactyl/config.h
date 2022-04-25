@@ -35,15 +35,16 @@
 /* Set 0 if debouncing isn't needed */
 #define DEBOUNCE 5
 #define VIAL_KEYBOARD_UID {0xB2, 0x91, 0x89, 0xF8, 0x02, 0xB0, 0x3B, 0x49}
-#define VIAL_UNLOCK_COMBO_ROWS { 0, 2 }
-#define VIAL_UNLOCK_COMBO_COLS { 0, 1 }
-
+#define VIAL_UNLOCK_COMBO_ROWS { 8, 8 }
+#define VIAL_UNLOCK_COMBO_COLS { 2, 3 }
+// #define DYNAMIC_KEYMAP_LAYER_COUNT 2
 // Homerow mods
 #define TAPPING_TERM 200
 // Prevent normal rollover on alphas from accidentally triggering mods.
 #define IGNORE_MOD_TAP_INTERRUPT
 // Enable rapid switch from tap to hold, disables double tap hold auto-repeat.
 #define TAPPING_FORCE_HOLD
+#define PS2_MOUSE_ROTATE 180
 #ifdef PS2_USE_INT
 #define PS2_CLOCK_PIN   D2
 #define PS2_DATA_PIN    D3
