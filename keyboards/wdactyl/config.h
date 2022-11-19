@@ -16,9 +16,6 @@
 #define MATRIX_ROW_PINS { F6, F7, B1, B3, B2, B6 }
 #define MATRIX_COL_PINS { B5, B4, E6, D7, C6, D4, D0 }
 
-#define RGB_DI_PIN F4
-#define DRIVER_LED_TOTAL 2
-
 #define UNUSED_PINS
 
 /* COL2ROW or ROW2COL */
@@ -44,7 +41,9 @@
 #define IGNORE_MOD_TAP_INTERRUPT
 // Enable rapid switch from tap to hold, disables double tap hold auto-repeat.
 #define TAPPING_FORCE_HOLD
+
 #define PS2_MOUSE_ROTATE 180
+
 #ifdef PS2_USE_INT
 #define PS2_CLOCK_PIN   D2
 #define PS2_DATA_PIN    D3
